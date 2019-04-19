@@ -1,0 +1,196 @@
+html{
+    background: #e7f7f8;
+    font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+    padding-top: 11%;
+    
+  
+  }
+  
+  body{
+    margin: 0 0 60px 0;
+   padding: 0;
+    
+  }
+  
+  li{
+    font-weight: 800;
+  }
+  
+  @media screen and (min-width: 731px) {
+    
+    .nav-section{
+      display: none;
+      
+    }
+    
+    
+      
+    }
+  
+  /* On screens that are 730px wide or less, the background color is blue */
+  @media screen and (max-width: 730px) {
+    
+    .nav-section{
+      text-align: center;
+     font-weight: 800;
+      padding-bottom: 10%;
+      
+    }
+   
+    li.btn.active{
+      display: none;
+    }
+    
+    li.btn {
+    position: absolute;
+      bottom: -109%;
+     left: 30%;
+      right: 30%;
+  }
+    
+   
+    
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background: olive;
+      
+    }
+  }
+  nav {
+   
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  nav ul{
+    margin: auto;
+    padding: 0;
+  }
+  
+  /* Buttons section */
+  
+  .btn {
+    display: inline;
+    font-weight: 800;
+  font-size: 16px;  
+  }
+  
+   
+  
+  .btn{
+    border-radius: 50px;
+   padding: 21px 1px 22px 1px;
+    background-image: linear-gradient(to right, #006175 0%, #9EDFCB 100%);
+    margin: 10px;
+  }
+  
+  .btn span{
+    align-items: center;
+    color: blue;
+    background: green;
+    border-radius: 40px;
+    border: 2px solid;
+  }
+  
+  .btn li{
+    align-items: center;
+    color: yellow;
+    border-radius: 40px;
+    border: 2px solid;
+    z-index:2;
+  }
+  .btn a {
+    text-decoration: none;
+    background: white;
+    padding: 20.5px 50px 20.5px 60px;
+    border-radius: 40px;
+    color: grey;
+    
+  }
+  
+  
+  li.btn.active {
+      background: #73A5B1;
+  }
+  
+  .active {
+    position: relative;
+  }
+  .active a {
+    padding-bottom: 3em;     
+    background:white;
+    border-radius: 32px 32px 0 0;
+  }
+  .active a::after,
+  .active a::before {
+    content: ' ';
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 35px;
+  }
+  .active a::before {
+    right: -39px;
+    background: radial-gradient(circle at 100% 0, transparent 69.5%, #73A5B1 70%,#73A5B1 72%, white 71.5%); 
+  }
+  .active a::after {
+    left: -39px;
+    background: radial-gradient(circle at 0 0, transparent 69.5%, #73A5B1 70%,#73A5B1 71%, white 71.5%); 
+  }
+  /*end of menu*/
+  
+  #container{
+    background: white;
+    height: auto;
+    margin-top: 35px;
+    padding: 40px;
+    border-top: 1px solid #73A5B1;
+    border-bottom: 1px solid #73A5B1;
+    -webkit-box-shadow: 1px 26px 65px -21px rgba(0,0,0,0.09);
+  -moz-box-shadow: 1px 26px 65px -21px rgba(0,0,0,0.09);
+  box-shadow: 1px 26px 65px -21px rgba(0,0,0,0.09);
+  }
+  
+  
+  
+  #scroll-up {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background: white;
+    margin: 18% auto;
+    top: 50%;  
+    background-image: linear-gradient(to right, #006175 0%, #9EDFCB 100%);
+    -webkit-box-shadow: 1px -2px 41px 1px rgba(0,0,0,0.23);
+  -moz-box-shadow: 1px -2px 41px 1px rgba(0,0,0,0.23);
+  box-shadow: 1px -2px 41px 1px rgba(0,0,0,0.23);
+  }
+  
+  .button{
+     border-radius: 50%;
+    
+   
+    
+    
+  }
+  .arrow{
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(225deg);
+    transition: border-width 150ms ease-in-out;
+  }
+  
+  
+  
+  
+  
